@@ -1,0 +1,79 @@
+body {
+    background-image: url('IMAGES/background image.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-us {
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2d8c467;
+    border: 5px groove #c0a330;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1), inset 0 0 20px rgba(0, 0, 0, 0.1);
+}
+  #close-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 3px;
+  color: rgb(180, 14, 14);
+  margin-top: 15px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+#close-btn:hover {
+  color: crimson; /* Adjust color on hover for better feedback */
+}
+  
+  h1 {
+    color: #c0a330;
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  
+  .benefits-section{
+    margin-left: 0%;
+  }
+  
+  h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  #close-btn {
+    cursor: pointer;
+    color: darkred;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  #close-btn:hover {
+    color: crimson;
+  }
+  
